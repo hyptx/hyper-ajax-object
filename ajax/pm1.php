@@ -2,7 +2,7 @@
 include('../hao.php');
 
 //This is the dynamic "Ghost Object" - setting the query here ensures true page memory
-$ajax_object_pm = hypAjaxObject::create('div_id=page-mem1&dynamic=true');
+$ajax_object_pm = hypAjaxObject::create('div_id=page-mem1&is_dynamic=true');
 $ajax_object_pm->set_hyp_query($_GET);
 
 echo '<strong>Query String: </strong>';
