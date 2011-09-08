@@ -1,0 +1,1 @@
+<?php echo '<strong>' . gmdate("j F, Y - H:i:s") . ' GMT</strong>'  ?>
