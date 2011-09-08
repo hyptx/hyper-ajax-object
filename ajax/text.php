@@ -1,0 +1,2 @@
+<p style="text-align:center;"><?php echo '<strong>This is the ajax loaded content<br />You can run PHP here or make database queries.</strong>' ?></p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec eget nibh. Suspendisse ut ligula ultricies odio rhoncus vestibulum. Curabitur ut magna sed felis bibendum commodo. Vestibulum semper condimentum tortor.</p>
