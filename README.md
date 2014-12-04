@@ -1,7 +1,7 @@
 #Hyper Ajax Object
 
 <div id="content-left">
-        <p>TheHyperAjaxObject Classis written in PHP and designed to make loading dynamic ajax content a snap. Don't worry if you are not familiar with Javascript, the class takes care of all of that client side code for you. Just copy and paste a few simple PHP method calls and you will have taken your first step into the world of the dynamic web. 2.0 I think they call it. ~ System created by <a href="http://adamjnowak.com" target="_blank">Adam J Nowak</a></p>
+        <p>The HyperAjaxObject Class is written in PHP and designed to make loading dynamic ajax content a snap. Don't worry if you are not familiar with Javascript, the class takes care of all of that client side code for you. Just copy and paste a few simple PHP method calls and you will have taken your first step into the world of the dynamic web. 2.0 I think they call it. ~ System created by <a href="http://adamjnowak.com" target="_blank">Adam J Nowak</a></p>
         
         <p><strong>Getting Started:</strong><br>
         Take a look at the <a href="#code-ref">Code Reference</a> so you can load the class and familiarize youself with the constructor. Then try out example 3 on the right, it is the most basic example. This implementation allows you the most options. You can create this HAO object and point many different triggers there, allowing you to load many different pages into the same div.</p>
@@ -31,8 +31,7 @@
         <h2>Code Reference</h2>
         <p><strong>Get the HAO class from our repository:</strong> <a href="http://hyperspatial.repositoryhosting.com/trac/hyperspatial_hao/browser/tags/1.0" target="_blank">HAO Files + Examples</a></p>
         <h4>HAO Constructor:</h4>
-```php
-        &lt;?php
+        <pre class="code-snippet">&lt;?php
 include('hao.php'); //HAO starts a session - load before headers
 $args = array( //No arguments are required, this example lists class defaults for reference
     'div_id' =&gt; false,
@@ -45,16 +44,11 @@ $args = array( //No arguments are required, this example lists class defaults fo
 );
 $ajax_object = hypAjaxObject::create($args);
 ?&gt;
-&lt;?php $ajax_object2 = hypAjaxObject::create('div_id=my-div&amp;drop=true') ?&gt;
-```
+&lt;?php $ajax_object2 = hypAjaxObject::create('div_id=my-div&amp;drop=true') ?&gt;</pre>
         <h4>Example method call:</h4>
-```php
-&lt;?php $ajax_object-&gt;drop_target() ?&gt;
-```
-```php
+        <pre class="code-snippet">&lt;?php $ajax_object-&gt;drop_target() ?&gt;</pre>
         <h4>Example Html trigger:</h4>
-        <pre class="code-snippet">&lt;a href="&lt;?php $ajax_object-&gt;link_load('ajax-file.php') ?&gt;"&gt;Load&lt;/a&gt;
-```
+        <pre class="code-snippet">&lt;a href="&lt;?php $ajax_object-&gt;link_load('ajax-file.php') ?&gt;"&gt;Load&lt;/a&gt;</pre>
         <h2>PHP Public Methods</h2>
         <ul>
             <li><strong>drop_target()</strong> ~ Add target div to DOM</li>
