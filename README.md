@@ -1,7 +1,7 @@
 #Hyper Ajax Object
 
 <div id="content-left">
-        <p>The <a href="http://hao.myhyperspace.com/source-code/" title="Get Class Now" target="_blank">HyperAjaxObject Class</a> is written in PHP and designed to make loading dynamic ajax content a snap. Don't worry if you are not familiar with Javascript, the class takes care of all of that client side code for you. Just copy and paste a few simple PHP method calls and you will have taken your first step into the world of the dynamic web. 2.0 I think they call it. ~ System created by <a href="http://adamjnowak.com" target="_blank">Adam J Nowak</a></p>
+        <p>TheHyperAjaxObject Classis written in PHP and designed to make loading dynamic ajax content a snap. Don't worry if you are not familiar with Javascript, the class takes care of all of that client side code for you. Just copy and paste a few simple PHP method calls and you will have taken your first step into the world of the dynamic web. 2.0 I think they call it. ~ System created by <a href="http://adamjnowak.com" target="_blank">Adam J Nowak</a></p>
         
         <p><strong>Getting Started:</strong><br>
         Take a look at the <a href="#code-ref">Code Reference</a> so you can load the class and familiarize youself with the constructor. Then try out example 3 on the right, it is the most basic example. This implementation allows you the most options. You can create this HAO object and point many different triggers there, allowing you to load many different pages into the same div.</p>
