@@ -31,7 +31,8 @@
         <h2>Code Reference</h2>
         <p><strong>Get the HAO class from our repository:</strong> <a href="http://hyperspatial.repositoryhosting.com/trac/hyperspatial_hao/browser/tags/1.0" target="_blank">HAO Files + Examples</a></p>
         <h4>HAO Constructor:</h4>
-        <pre class="code-snippet">&lt;?php
+```php
+        &lt;?php
 include('hao.php'); //HAO starts a session - load before headers
 $args = array( //No arguments are required, this example lists class defaults for reference
     'div_id' =&gt; false,
@@ -44,11 +45,16 @@ $args = array( //No arguments are required, this example lists class defaults fo
 );
 $ajax_object = hypAjaxObject::create($args);
 ?&gt;
-&lt;?php $ajax_object2 = hypAjaxObject::create('div_id=my-div&amp;drop=true') ?&gt;</pre>
+&lt;?php $ajax_object2 = hypAjaxObject::create('div_id=my-div&amp;drop=true') ?&gt;
+```
         <h4>Example method call:</h4>
-        <pre class="code-snippet">&lt;?php $ajax_object-&gt;drop_target() ?&gt;</pre>
+```php
+&lt;?php $ajax_object-&gt;drop_target() ?&gt;
+```
+```php
         <h4>Example Html trigger:</h4>
-        <pre class="code-snippet">&lt;a href="&lt;?php $ajax_object-&gt;link_load('ajax-file.php') ?&gt;"&gt;Load&lt;/a&gt;</pre>
+        <pre class="code-snippet">&lt;a href="&lt;?php $ajax_object-&gt;link_load('ajax-file.php') ?&gt;"&gt;Load&lt;/a&gt;
+```
         <h2>PHP Public Methods</h2>
         <ul>
             <li><strong>drop_target()</strong> ~ Add target div to DOM</li>
