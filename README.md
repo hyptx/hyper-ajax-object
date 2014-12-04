@@ -1,7 +1,6 @@
 #Hyper Ajax Object
 
 <div id="content-left">
-    	<h2>HAO Notes:</h2>
         <p>The <a href="http://hao.myhyperspace.com/source-code/" title="Get Class Now" target="_blank">HyperAjaxObject Class</a> is written in PHP and designed to make loading dynamic ajax content a snap. Don't worry if you are not familiar with Javascript, the class takes care of all of that client side code for you. Just copy and paste a few simple PHP method calls and you will have taken your first step into the world of the dynamic web. 2.0 I think they call it. ~ System created by <a href="http://adamjnowak.com" target="_blank">Adam J Nowak</a></p>
         
         <p><strong>Getting Started:</strong><br>
